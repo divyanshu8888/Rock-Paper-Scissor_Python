@@ -54,7 +54,7 @@ def spin(comp,you):
         
     elif comp==1:
         if you==2:
-           win_lose_label.config(text="Congo!! you won, Paper covered rock",textvariable=comp) 
+           win_lose_label.config(text="Congo!! you won, Paper covered rock") 
         elif you==3:
             win_lose_label.config(text="You lose!! Rock smashed Scissor") 
     elif comp==2:
